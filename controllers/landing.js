@@ -1,3 +1,3 @@
 exports.get_landing = function (req, res, next) {
-  res.render("index", { title: "Expresses" });
+  res.render("landing", { title: "Expresses" });
 };
